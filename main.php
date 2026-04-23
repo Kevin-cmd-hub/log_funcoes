@@ -9,3 +9,11 @@ function Somar($a, $b, $c){
 
 echo "Resultado: ", Somar(10,5,3); 
 
+
+function Subtrair($a, $b){
+    return $a - $b;
+}
+//Commit v3
+
+//Cirar função Dividir (v4) e Multiplicar (v5)
+echo "Resultado: ", Subtrair(10,5);
