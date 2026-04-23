@@ -19,8 +19,11 @@ echo "Resultado: ", Subtrair(10,5);
 function Dividir($a, $b){
     return $a / $b;
 }
-//commit v4
 
-//Criar função Multiplicar (v5)
 echo "Resultado: ", Dividir(10,5);
 
+function Multiplicar($a, $b){
+    return $a * $b;
+}
+
+echo "Resultado: ", Multiplicar(10,5);
