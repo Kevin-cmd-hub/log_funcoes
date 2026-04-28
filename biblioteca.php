@@ -1,0 +1,34 @@
+<?php
+
+namespace matematica{
+    function Somar($a, $b, $c){
+        return $a + $b + $c;
+    }
+
+    function Subtrair($a, $b){
+        return $a - $b;
+    }
+}
+namespace texto{
+    function Concatenar($nome, $sobrenome){
+        return $nome . " " . $sobrenome;
+    } 
+}
+namespace logica{
+    function verificaidade($idade){
+        if ($idade >= 18){
+            return "Maior de idade!";
+        }
+        else{
+            return "Menor de idade!";
+        }
+    }
+    function verificaExercito($sexo, $idade){
+        if ($idade >= 18 && $sexo == "Masculino"){
+            return "Você está apto a servir ao Exercito";
+        }
+        else{
+            return "Você não cumpre aos requisitos";
+        }
+    }
+}
