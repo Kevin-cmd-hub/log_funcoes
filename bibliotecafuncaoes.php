@@ -1,29 +1,30 @@
 <?php
 
-// Função areaQuadrado($lado)
-// Função areaRetangulo($base, $altura)
-// Função areaTriangulo($base, $altura)
-// Função areaCirculo($raio)
-// Função areaTrapezio($baseMaior, $baseMenor, $altura)
+//Namespace conversao:
+// Função dolarParaReal($valor, $cotacao)
+// Função euroParaReal($valor, $cotacao)
+// Função pesoParaReal($valor, $cotacao)
+// Função libraParaReal($valor, $cotacao)
+// Função ieneParaReal($valor, $cotacao)
 
-namespace calcular{
-    function areaQuadrado($lado){
-        return $lado * $lado;
+namespace converao{
+    function areaQuadrado($valor, $cotacao){
+        return $valor * $cotacao;
     }
 
-    function areaRetangulo($base, $altura){
-        return $base * $altura;
+    function euroParaReal($valor, $cotacao){
+        return $valor * $cotacao;
     }
 
-    function areaTriangulo($base, $altura){
-        return $base * $altura;
+    function pesoParaReal($valor, $cotacao){
+        return $valor * $cotacao;
     }
 
-    function areaCirculo($raio){
-        return $raio**2 * 3.14;
+    function libraParaReal($valor, $cotacao){
+        return $valor * $cotacao;
     }
 
-    function areaTrapezio($baseMaior, $baseMenor, $altura){
-        return $baseMaior * $baseMenor * $altura;
+    function ieneParaReal($valor, $cotacao){
+        return $valor * $cotacao;
     }
 }
