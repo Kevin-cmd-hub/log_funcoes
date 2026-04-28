@@ -2,14 +2,14 @@
 
 require_once 'bibliotecafuncaoes.php';
 
-use function conversao\dolarParaReal;
-use function conversao\euroParaReal;
-use function conversao\pesoParaReal;
-use function conversao\libraParaReal;
-use function conversao\ieneParaReal;
+use function calcular\areaQuadrado;
+use function calcular\areaRetangulo;
+use function calcular\areaTriangulo;
+use function calcular\areaCirculo;
+use function calcular\areaTrapezio;
 
-echo "A conversão deu: ", dolarParaReal (100, 5);
-echo "A conversão deu: ", euroParaReal (100, 5.84);
-echo "A conversão deu: ", pesoParaReal (100, 0.0035);
-echo "A conversão deu: ", libraParaReal (100, 6.73);
-echo "A conversão deu: ", ieneParaReal (100, 0.031);
+echo "A conversão deu: ", areaQuadrado (10, 5);
+echo "\nA conversão deu: ", areaRetangulo (10, 5);
+echo "\nA conversão deu: ", areaTriangulo (10, 6);
+echo "\nA conversão deu: ", areaCirculo (10, 6.73);
+echo "\nA conversão deu: ", areaTrapezio (10, 6, 5);
